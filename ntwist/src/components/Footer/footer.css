@@ -6,107 +6,175 @@
 .footer-logo img {
   width: 10%;
 }
-
-/* .footer-link {
-  width: 60%;
-  margin: 20px auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 10rem;
+.footer-link{
+  width:35%;
   list-style: none;
+  text-align: center;
+  margin:1rem auto;
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+ /* border: 1px solid red; */
 }
-.footer-link li a {
-  color: #ffffff;
+.footer-link a{
+  color: #fff;
   text-decoration: none;
-  font-size: 18px;
+font-weight:500;
+font-size: 1.1rem;
 }
-.footer-wrapper p {
-  color: #6f7f92;
+.footer-link li:nth-child(6){
+  display: none;
+}
+.footer-text {
+   color: #6f7f92;
   font-size: 17px;
   padding: 10px 0;
+  font-weight: 500;
 }
-.footer-wrapper p:last-child {
-  padding-bottom: 8rem;
+.bi-icon{
+  color: #fff;
+  font-size: 1.5rem;
 }
 .social-media {
-  display: flex;
-  margin: 15px auto;
-  padding: 0 10px;
   width: 5%;
-
+  display: flex;
   align-items: center;
-  text-align: center;
-  gap: 20px;
-  color: #ffffff;
+justify-content: space-around;
+  margin: 15px auto;
+  /* border: 1px solid red; */
 }
-.bi-icon {
-  font-size: 25px;
+.Ntwist-Inc{
+   color: #6f7f92;
+  font-size: 17px;
+  padding: 10px 0;
+  font-weight: 500;
 }
-@media screen and (max-width: 850px) {
-  .footer-link {
-    width: 100%;
-    margin: 20px auto;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 0 10rem;
-    list-style: none;
-  }
-  .footer-logo img {
-    width: 20%;
-  }
-  .footer-link li a {
-    font-size: 13px;
-    padding-top: 15px;
-  }
-  .footer-wrapper p {
-    font-size: 12px;
-    
-  }
-
-  .social-media {
-    display: flex;
-    margin: 15px auto;
-    padding: 0 150px;
-    width: 50%;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .footer-link {
-    width: 100%;
-    margin: 20px auto;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0 6rem;
-    list-style: none;
+@media screen and (max-width:1050px) {
+  .footer-link{
+  width:50%;
   }
   .social-media {
-    display: flex;
-    margin: 15px auto;
-    padding: 0 140px;
-    width: 85%;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-  }
+  width: 10%;
+}
+}
+
+@media screen and (max-width:850px) {
   .footer-logo img {
-    width: 30%;
-  }
+  width: 15%;
+}
+.footer-link{
+  width:60%;
+}
+.footer-link a{
+font-weight:500;
+font-size: 1rem;
+}
+
+.footer-text {
+  font-size: 14px;
+  padding: 10px 0;
+  font-weight: 500;
+}
+.bi-icon{
+  color: #fff;
+  font-size: 1.5rem;
+}
+.social-media {
+  width: 12%;
+  margin: 15px auto;
+  /* border: 1px solid red; */
+}
+.Ntwist-Inc{
+  font-size: 14px;
+  padding: 10px 0;
+  font-weight: 500;
+}
+}
+
+@media screen and (max-width:450px) {
+  .footer-logo img {
+  width: 25%;
+}
+.footer-link{
+  width:80%;
+  display: grid;
+  text-align: start;
+  grid-template-columns: repeat(3,1fr);
+  /* gap: 20px; */
+}
+.footer-link li:nth-child(6){
+  display: block;
+}
+.footer-link li{
+  margin-top: 1rem;
+}
+.footer-link a{
+font-weight:500;
+font-size: 1rem;
+}
+
+.footer-text {
+  font-size: 12px;
+  padding: 10px 0;
+  font-weight: 500;
+}
+.bi-icon{
+  color: #fff;
+  font-size: 1.4rem;
+}
+.social-media {
+  width: 20%;
+  margin: 15px auto;
+  /* border: 1px solid red; */
+}
+.Ntwist-Inc{
+  font-size: 12px;
+  padding: 10px 0;
+  font-weight: 500;
+}
+}
+
+
+@media screen and (max-width:380px) {
+  .footer-logo img {
+  width: 25%;
+}
+.footer-link{
+  width:70%;
+  display: grid;
+  text-align: start;
+  grid-template-columns: repeat(2,1fr);
+  /* gap: 20px; */
+}
+.footer-link li{
+  margin-top: 1rem;
+}
+.footer-link a{
+font-weight:500;
+font-size: 1rem;
+}
+
+.footer-text {
+  font-size: 11px;
+  padding: 10px 0;
+  font-weight: 500;
+}
+.bi-icon{
+  color: #fff;
+  font-size: 1.3rem;
+}
+.social-media {
+  width: 20%;
+  margin: 15px auto;
+  /* border: 1px solid red; */
+}
+.Ntwist-Inc{
+  font-size: 11px;
+  padding: 10px 0;
+  font-weight: 500;
+}
+}
+
+@media screen and (max-width:1050px) {
   
 }
-
-@media screen and (max-width: 550px){
-    .social-media {
-        width: 90%;
-    }
-    .footer-wrapper p{
-        line-height: -20px;
-    }
-}
- */

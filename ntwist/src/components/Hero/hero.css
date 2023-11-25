@@ -189,7 +189,7 @@
   }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 330px) {
      .hero-warpper {
     width: 100%;
     background-image: url("../../assets/home-image-bg-v6.png");
