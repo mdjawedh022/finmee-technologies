@@ -5,7 +5,7 @@ import icon from "../../assets/home-image-icons-v6.png"
 const Hero = () => {
   return (
     <div className='hero-warpper'>
-      <img src={bg} alt="" />
+      {/* <img src={bg} alt="" /> */}
       <div className="hero-text-wrapper">
         <div className="hero-text">
           <h2>Data-powered solutions <br /> for Industial Excellence</h2>

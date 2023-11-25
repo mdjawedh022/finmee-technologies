@@ -7,7 +7,7 @@
   width: 10%;
 }
 
-.footer-link {
+/* .footer-link {
   width: 60%;
   margin: 20px auto;
   display: flex;
@@ -34,7 +34,7 @@
   margin: 15px auto;
   padding: 0 10px;
   width: 5%;
-  /* border: solid; */
+
   align-items: center;
   text-align: center;
   gap: 20px;
@@ -70,7 +70,6 @@
     margin: 15px auto;
     padding: 0 150px;
     width: 50%;
-    /* border: solid; */
     align-items: center;
     text-align: center;
     gap: 20px;
@@ -92,7 +91,6 @@
     margin: 15px auto;
     padding: 0 140px;
     width: 85%;
-    /* border: solid; */
     align-items: center;
     text-align: center;
     gap: 20px;
@@ -111,3 +109,4 @@
         line-height: -20px;
     }
 }
+ */

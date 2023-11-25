@@ -1,241 +1,229 @@
 .hero-warpper {
-  text-align: center;
   width: 100%;
+  background-image: url("../../assets/home-image-bg-v6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
-  position: relative;
-  border: solid;
+  margin-top: 0;
+  padding-top: 9rem;
 }
-.hero-warpper img {
-  height: 100%;
+.hero-text-wrapper {
+  width: 90%;
+  /* height: 85vh; */
+  margin: auto;
+  /* border: solid 1px red; */
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+.hero-image-logo img {
   width: 100%;
   object-fit: cover;
 }
-.hero-text-wrapper {
-  width: 95%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  position: absolute;
-  top: 20%;
-  left: 0.5%;
-  margin: auto;
-  /* border: solid; */
-}
-
-.hero-text-wrapper h2 {
-  padding-top: 5rem;
-  color: #fff;
-  font-size: 3.2rem;
-  /* border:solid; */
-  padding-left: 4.4rem;
-  text-align: start;
-  line-height: 3.6rem;
-}
-.hero-text-wrapper button {
-  padding: 0.9rem 3rem;
-  border-radius: 5px;
-  border: none;
-  background-color: #007aff;
+.hero-text h2 {
+  font-size: 3.3rem;
   color: #ffffff;
-  margin-top: 1rem;
-  margin-right: 21rem;
+  line-height: 58px;
+}
+.hero-text button {
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  background-color: #007aff;
   font-size: 1rem;
+  font-weight: 500;
+  padding: 0.9rem 3rem;
+  margin-top: 2rem;
 }
 @media screen and (max-width: 1050px) {
-  .hero-text-wrapper {
-    width: 95%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    left: 4%;
-    /* border: solid; */
-  }
-
-  .hero-text-wrapper h2 {
-    padding-top: 5rem;
-    color: #fff;
+  .hero-warpper {
     width: 100%;
-    padding-right: 50px;
-    padding-left: 1.5rem;
-    font-size: 2.5rem;
+    background-image: url("../../assets/home-image-bg-v6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0;
+    padding-top: 9rem;
+  }
+  .hero-text-wrapper {
+    width: 90%;
+    /* height: 85vh; */
+    margin: auto;
+    /* border: solid 1px red; */
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
   }
   .hero-image-logo img {
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+  }
+  .hero-text h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    line-height: 43px;
   }
   .hero-text button {
-    padding: 1rem 2rem;
-    margin-top: 1rem;
-    font-size: 0.9rem;
-     margin-left:1.5rem;
-    width: 30%;
-  }
-  /* .hero-text {
-    border: solid;
-  } */
-}
-@media screen and (max-width: 966px) {
-  .hero-warpper {
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-  }
-  .hero-warpper img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  .hero-text-wrapper {
-    width: 95%;
-    display: flex;
-    flex-direction: column-reverse;
-    position: absolute;
-    top: 12%;
-    left: 2%;
-    margin: auto;
-  }
-  .hero-text-wrapper img {
-    width: 50%;
-    margin: auto;
-  }
-  .hero-text-wrapper h2 {
-    padding-top: 1rem;
-    font-size: 2.5rem;
-    text-align: center;
-  }
-  .hero-text-wrapper button {
-    width: 20%;
-    padding: 0.9rem 2rem 1rem;
-    margin-top: 1rem;
-    margin-right: 17rem;
-    font-size: 0.7rem;
-    outline: none;
-  }
-  .hero-text-wrapper div {
-    border: solid;
+    font-size: 1rem;
+    padding: 0.8rem 2.5rem;
+    margin-top: 2rem;
   }
 }
+
 @media screen and (max-width: 850px) {
   .hero-warpper {
-    text-align: center;
     width: 100%;
-    height: 100vh;
-    position: relative;
-  }
-  .hero-warpper img {
-    height: 100%;
-    width: 100%;
-   
+    background-image: url("../../assets/home-image-bg-v6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    margin-top: 0;
+    padding-top: 6rem;
   }
   .hero-text-wrapper {
-    width: 95%;
-    display: flex;
-    flex-direction: column-reverse;
-    position: absolute;
-    top: 10%;
-    left: 1%;
+    width: 80%;
     margin: auto;
+    /* border: solid 1px red; */
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
   }
-  .hero-text-wrapper img {
-
-    width: 55%;
-    margin: auto;
-     object-fit: cover;
+  .hero-image-logo {
+    text-align: center;
+    padding: 2rem 0 1rem;
   }
-  .hero-text-wrapper h2 {
+  .hero-image-logo img {
+    width: 80%;
+    object-fit: cover;
+  }
+  .hero-text h2 {
     font-size: 2.5rem;
+    color: #ffffff;
+    line-height: 43px;
   }
-  .hero-text-wrapper button {
-    width: 20%;
-    padding: 0.9rem 2rem;
-    margin-top: 1rem;
-    margin-right: 17rem;
-    font-size: 0.7rem;
-    outline: none;
+  .hero-text button {
+    font-size: 1rem;
+    padding: 0.8rem 2.5rem;
+    margin-top: 2rem;
   }
 }
-@media screen and (max-width: 550px) {
-  .hero-warpper {
-    text-align: center;
+
+@media screen and (max-width: 450px) {
+   .hero-warpper {
     width: 100%;
-    height: 100vh;
-    position: relative;
-  }
-  .hero-warpper img {
-    height: 100%;
-    width: 100%;
+    background-image: url("../../assets/home-image-bg-v6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    margin-top: 0;
+    padding-top: 6rem;
   }
   .hero-text-wrapper {
-    width: 95%;
-    display: flex;
-    flex-direction: column-reverse;
-    position: absolute;
-    top: 15%;
-    left: 1%;
+    width: 80%;
     margin: auto;
+    /* border: solid 1px red; */
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
   }
-  .hero-text-wrapper img {
-    width: 55%;
-    margin: auto;
+  .hero-image-logo {
+    text-align: center;
+    padding: 2rem 0 1rem;
+  }
+  .hero-image-logo img {
+    width: 80%;
     object-fit: cover;
   }
-  .hero-text-wrapper h2 {
+  .hero-text h2 {
     font-size: 1.5rem;
-    /* border: solid; */
-    line-height: 35px;
-  }
-  .hero-text-wrapper button {
-    width: 35%;
-    padding: 0.8rem 2rem;
-    border-radius: 5px;
-    border: none;
-    background-color: #007aff;
     color: #ffffff;
+    line-height: 27px;
+  }
+  .hero-text button {
+    font-size: .8rem;
+    padding: 0.7rem 2rem;
     margin-top: 1rem;
-    margin-left: 6rem;
-    font-size: 0.7rem;
-    outline: none;
   }
 }
+
 @media screen and (max-width: 380px) {
-  .hero-warpper {
-    text-align: center;
+     .hero-warpper {
     width: 100%;
-    height: 100vh;
-    position: relative;
-  }
-  .hero-warpper img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    background-image: url("../../assets/home-image-bg-v6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    margin-top: 0;
+    padding-top: 6rem;
   }
   .hero-text-wrapper {
-    width: 95%;
-    display: flex;
-    flex-direction: column-reverse;
-    position: absolute;
-    top: 20%;
-    left: 1%;
+    width: 80%;
     margin: auto;
+    /* border: solid 1px red; */
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
   }
-  .hero-text-wrapper img {
-    width: 55%;
-    margin: auto;
+  .hero-image-logo {
+    text-align: center;
+    padding: 2rem 0 1rem;
   }
-  .hero-text-wrapper h2 {
+  .hero-image-logo img {
+    width: 80%;
+    object-fit: cover;
+  }
+  .hero-text h2 {
     font-size: 1.5rem;
-  }
-  .hero-text-wrapper button {
-    padding: 0.8rem 2rem;
-    border-radius: 5px;
-    border: none;
-    background-color: #007aff;
     color: #ffffff;
+    line-height: 27px;
+  }
+  .hero-text button {
+    font-size: .8rem;
+    padding: 0.7rem 2rem;
     margin-top: 1rem;
-    margin-right: 9rem;
-    font-size: 0.7rem;
-    outline: none;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+     .hero-warpper {
+    width: 100%;
+    background-image: url("../../assets/home-image-bg-v6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    margin-top: 0;
+    padding-top: 6rem;
+  }
+  .hero-text-wrapper {
+    width: 80%;
+    margin: auto;
+    /* border: solid 1px red; */
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .hero-image-logo {
+    text-align: center;
+    padding: 2rem 0 1rem;
+  }
+  .hero-image-logo img {
+    width: 80%;
+    object-fit: cover;
+  }
+  .hero-text h2 {
+    font-size: 1.4rem;
+    color: #ffffff;
+    line-height: 22px;
+  }
+  .hero-text button {
+    font-size: .8rem;
+    padding: 0.6rem 1.5rem;
+    margin-top: 1rem;
   }
 }
