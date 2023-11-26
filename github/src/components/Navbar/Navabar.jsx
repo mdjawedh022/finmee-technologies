@@ -12,19 +12,16 @@ const Navabar = () => {
   return (
     <Box
       w={{ lg: "100%", md: "100%", base: "100%" }}
-      background={"black"}
+      position="absolute"
+      zIndex={"999"}
+      top={'0'}
+      // background={"#0d1117"}
       display="flex"
       justifyContent={"space-between"}
       alignItems={"center"}
       p={{ lg: ".8rem 1rem", md: ".5rem 2rem", base: ".5rem" }}
     >
       <Box display={{ lg: "none", md: "block", base: "block" }}>
-        {/* <Button
-          background={"transparent"}
-          color={"#fff"}
-          border={"1px solid #fff"}
-          _hover={{ bgColor: "transparent" }}
-        paddingTop={'-20px'} */}
         <button className="btn-sig">Sign up</button>
       </Box>
       <Box
@@ -167,13 +164,13 @@ const Navabar = () => {
         <Box
           display={"flex"}
           border={"1px solid  #404750"}
-          background={"#24292f"}
+          background={"#24292fcc"}
           gap={"5px"}
           alignItems={"center"}
           p={".1rem .5rem"}
           borderRadius={"5px"}
         >
-          <SearchIcon color={"#404750" } />
+          <SearchIcon color={"#404750"} />
           <input className="input" placeholder="Search or jump to.." />
           <button className="button">/</button>
         </Box>
