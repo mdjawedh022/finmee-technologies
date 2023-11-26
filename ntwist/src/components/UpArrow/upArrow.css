@@ -1,0 +1,26 @@
+ .arrow {
+    cursor: pointer;
+    position: fixed;
+    top: 650px;
+    right: 1%;
+    font-size: 2rem;
+    margin: 0 auto;
+   margin-right: 20px;
+   background-color: #112441;;
+   color: white;
+   border-radius: 50px;
+   padding: 10px 15px;
+  }
+  .arrow:hover{
+    background-color: white;
+    border: 2px solid #081528;;
+    color: #081528;;
+  }
+  @media screen and (max-width:1050px) {
+    .arrow {
+     padding: 5px 10px;
+    top: 500px;
+    right: 1%;
+   
+  }
+  }

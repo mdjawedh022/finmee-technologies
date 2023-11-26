@@ -3,3 +3,23 @@
   padding: 0;
   box-sizing:border-box;
 }
+.navbar-wrapper {
+    background-color: transparent;
+}
+ .navbar-wrapper .img211{
+  display: none;
+ }
+.navbar-wrapper.colorChange {
+    background-color: #fff;
+
+}
+
+.navbar-wrapper.colorChange a{
+   color:#081528;
+}
+.navbar-wrapper.colorChange .img111{
+  display: none;
+}
+.navbar-wrapper.colorChange .img211{
+  display: block;
+}

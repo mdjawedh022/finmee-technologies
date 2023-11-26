@@ -13,6 +13,15 @@ const Navbar = () => {
   const [state, setState] = useState(false);
   const [search, setSearch] = useState(false);
     const [isHovered, setIsHovered] = useState(false);
+    const [colorChange, setColorchange] = useState(false);
+    const changeNavbarColor = () => {
+      if (window.scrollY >= 80) {
+        setColorchange(true);
+      } else {
+        setColorchange(false);
+      }
+    };
+    window.addEventListener("scroll", changeNavbarColor);
 
     const handleMouseEnter = () => {
       setIsHovered(true);
@@ -23,20 +32,23 @@ const Navbar = () => {
     };
   return (
     <>
-      <div className="navbar-wrapper">
+      <div
+        className={
+          colorChange ? "navbar-wrapper colorChange" : "navbar-wrapper"
+        }
+      >
         <div className="nav-logo">
           <img
+            className="img111"
             src="https://ntwist.com/wp-content/uploads/2021/12/ntwistlight.png"
+            alt=""
+          />
+          <img className="img211"
+            src="https://ntwist.com/wp-content/uploads/2021/12/ntwist-logo-dark.png"
             alt=""
           />
         </div>
         <ul className="nav-menu-items">
-          {/* {MenuItems.map((el)=>(
-        <li key={el.i}>
-          <Link to={el.url}>{el.title} {el.icons}</Link>
-        </li>
-      ))} */}
-
           <li>
             <Link>Home</Link>
           </li>
