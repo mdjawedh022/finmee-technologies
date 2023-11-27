@@ -1,0 +1,80 @@
+.footer-wrapper {
+  background-color: #0d1117;
+  color: #7d8590;
+}
+.footer-wrapper ul {
+  list-style: none;
+}
+.footer-des li {
+  font-size: 14px;
+}
+.footer-des li:nth-child(1) {
+  width: 70%;
+}
+.footer-des {
+  width: 80%;
+  margin: auto;
+  padding: 30px 0;
+}
+.footer-inner {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  padding-top: 30px;
+  grid-template-columns: repeat(2, 30% 69%);
+  gap:70px
+}
+.footer-link {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.github-sub-logo h2 {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.sub-insider {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.footer-last-p{
+    font-size: 14px;
+    width: 110%;
+}
+.footer-btn{
+    background-color: transparent;
+    color: #fff;
+    padding: 13px 25px;
+    border: 1px solid  #7d8590;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.footer-link ul{
+    margin-bottom: 90px;
+}
+.footer-link ul li{
+    line-height: 30px;
+    font-size: 15px;
+    cursor: pointer;;
+}
+.social-media-section{
+    background-color: #161B22;
+    color: #7d8590;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 9rem;
+}
+.footer-term{
+    display: flex;
+    font-size: 13px;
+    gap: 20px;
+    cursor: pointer;
+}
+.social-link{
+    display: flex;
+    font-size:20px;
+    gap: 20px;
+    cursor: pointer;
+}
