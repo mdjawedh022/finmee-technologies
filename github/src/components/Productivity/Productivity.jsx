@@ -6,25 +6,44 @@ const Productivity = () => {
   return (
     <Box className="pro-wrapper">
       <Box
-        w={{ lg: "78%", md: "90%", base: "95%" }}
+        w={{ lg: "77%", md: "90%", base: "90%" }}
         display={"flex"}
-        gap={{ lg: "40px", md: "20px" }}
+        gap={{ lg: "40px", md: "20px" ,base:'20px'}}
         alignItems={"start"}
-        m={{ lg: "10px auto 0", md: "10px auto 0", base: "10px auto " }}
+        m="auto"
+        pt='1rem'
+      
       >
-        <Box>
-          <MdWorkOutline />
+        <Box display="flex" alignItems="center" flexDirection="column">
+          <MdWorkOutline
+            style={{  color: "#fff", fontSize: "1.3rem" }}
+          />
           <Box
             className="pro-line"
-            mt={"5px"}
+            mt={"15px"}
             w={{ lg: "2.6px", md: "2.6px", base: "2.6px" }}
-            h={{ lg: "260px", md: "260px", base: "370px" }}
+            h={{ lg: "260px", md: "220px", base: "200px" }}
           ></Box>
         </Box>
         <Box>
-          <Text>Productivity</Text>
-          <Text>Accelerate innovation</Text>
-          <Text>
+          <Text
+            fontSize={{ lg: "24px", md: "24px", base: "20px" }}
+            color="#fff"
+          >
+            Productivity
+          </Text>
+          <Text
+
+            fontSize={{ lg: "48px", md: "40px", base: "28px" }}
+            color="#3FB950"
+          >
+            Accelerate innovation
+          </Text>
+          <Text
+            lineHeight={{lg:"60px",base:"35px"}}
+            fontSize={{ lg: "48px", md: "40px", base: "28px" }}
+            color="#fff"
+          >
             Our AI-powered platform increases the pace of software development.
           </Text>
         </Box>
