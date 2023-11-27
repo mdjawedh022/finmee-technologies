@@ -4,7 +4,7 @@
 **Task-1**
 <br/>
 ## NTWIST ##
-I clone HomePage of Ntwist.It is fully responsive.It is machine learning algorithms and artificial intelligence tools help continuous process plants to improve productivity while lowering costs and ensuring the best environmental performance and accountability. 
+I clone the HomePage of Ntwist. It is fully responsive. It is machine learning algorithms and artificial intelligence tools help continuous process plants to improve productivity while lowering costs and ensuring the best environmental performance and accountability. 
 NTWIST platform leverages existing industrial metering information and infrastructure. 
 <br/>
 Deploy link
@@ -42,8 +42,9 @@ Tech-Stack
 <br/>
 2. css
 <br/>
-3. react-router-dom
+3. Chakra UI
 <br/>
 4. react-icons
 <br/>
-![Screenshot 2023-11-27 095832](https://github.com/mdjawedh022/finmee-technologies/assets/107981893/fa0f0cce-bc86-4846-a262-aa8f2e793a3b)
+![Screenshot 2023-11-27 095832](https://github.com/mdjawedh022/finmee-technologies/assets/107981893/12b31122-2063-46d9-9e8b-6402023062f7)
+
