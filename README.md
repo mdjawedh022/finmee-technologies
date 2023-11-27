@@ -9,7 +9,7 @@ NTWIST platform leverages existing industrial metering information and infrastru
 <br/>
 Deploy link
 <br/>
-https://ntwistclone.netlify.app
+https://ntwist-masai-fw20-0359.netlify.app/
 <br/>
 Tech-Stack
 <br/>
@@ -34,7 +34,7 @@ It's a social networking site for programmers that many companies and organizati
 <br/>
 Deploy link
 <br/>
-https://github-clone-for-ntwist.netlify.app
+https://github-masai-fw20-0359.netlify.app/
 <br/>
 Tech-Stack
 <br/>
